@@ -4,7 +4,7 @@ Welcome to my first portfolio website!
 
 ## Overview
 
-When visiting this page, you'll find: 
+While visiting, you will find: 
 - A brief introduction about me
 - An overview of my skills
 - A showcase of my projects so far
