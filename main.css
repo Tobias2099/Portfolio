@@ -126,11 +126,11 @@ section h2 {
   flex-direction: column;
   align-items: center;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.95), #0D1117);
-  padding: 30px 20px;
+  padding: 20px 20px;
   text-align: center;
   border: 2px solid #39FF14;
   box-shadow: 0 0 20px rgba(57, 255, 20, 0.8);
-  padding-bottom: 5%;
+  padding-bottom: 4%;
   border-radius: 0.5%;
   margin-top: 0.65%;
   animation: glow-border 3s infinite alternate;
@@ -155,9 +155,9 @@ section h2 {
 
 #about p {
   color: #39FF14;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   line-height: 1.9;
-  max-width: 60%;
+  max-width: 90%;
   text-shadow: 0 0 20px #39FF14;
   margin-bottom: 0;
   animation: text-fade-in 2s ease-in-out;
@@ -190,7 +190,6 @@ section h2 {
   }
 }
 
-
 #skills {
   display: flex;
   flex-direction: column;
@@ -204,7 +203,7 @@ section h2 {
   font-size: 2.5rem;
   text-align: center;
   text-shadow: 0 0 20px #39FF14, 0 0 40px #39FF14;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 #skill-list {
@@ -221,6 +220,10 @@ section h2 {
   border-radius: 15px;
   padding-top: 2%;
   padding-bottom: 2%;
+}
+
+#flask-icon {
+  border-radius: 20%;
 }
 
 @keyframes pulse {
@@ -277,7 +280,7 @@ section h2 {
   color: #39FF14;
   font-size: 2.5rem;
   text-shadow: 0 0 20px #39FF14, 0 0 40px #39FF14;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .project-entry {
@@ -292,6 +295,7 @@ section h2 {
   box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: auto;
+  max-height: 700px;
 }
 
 .project-entry:hover {
@@ -316,9 +320,11 @@ section h2 {
 .project-entry img {
   border-radius: 5px;
   margin-top: 1rem;
-  width: 99.3%;
+  width: 99%;
   height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  max-height: 450px;
+  padding-bottom: 3%;
 }
 
 .project-entry a {
@@ -347,6 +353,8 @@ section h2 {
 #project-grid {
   display: grid;
   grid-template-columns: repeat(2, 0.5fr);
+  grid-template-rows: repeat(2, 0.5fr);
+  row-gap: 4%;
   padding: 0;
   width: 80%;
 }
@@ -360,7 +368,7 @@ section h2 {
   background-color: #0D1117;
   border-top: 3px solid #39FF14;
   box-shadow: 0 -5px 15px rgba(57, 255, 20, 0.7);
-  margin-top: 5%
+  margin-top: 9%
 }
 
 #contact h2 {
