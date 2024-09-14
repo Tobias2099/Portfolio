@@ -6,8 +6,12 @@
     <title>Tobias Pong Portfolio</title>
     <link rel="stylesheet" href="./main.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
+
+    <div id="particles-js"></div>
+
     <nav id="navigation">
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -15,10 +19,13 @@
       <a href="#contact">Contact</a>
     </nav>
 
+    
+
     <section id="intro">
       <h1>Hi, I'm Tobias<br />I'm an aspiring professional full stack web developer!</h1>
       <a href="#projects" class="cta-button">View My Projects</a>
     </section>
+
 
     <section id="about">
       <h2>About Me</h2>
@@ -91,13 +98,9 @@
           <span class="skill-title">Git</span>
           <img src="./images/GitLogo.png" alt="Git logo">
         </div>
-
-        
-        
       </div>
     </section>
     
-
     <section id="projects">
       <h2>My Projects</h2>
       <div id="project-grid">
@@ -123,12 +126,59 @@
         </div>
       </div>
     </section>
-    
-
+  
     <section id="contact">
       <h2>Contact Me</h2>
       <span><b>tobiaspong@gmail.com</b></span>
       <a href="https://www.linkedin.com/in/tobias-pong-19125528b/"><span>My LinkedIn</span></a>
     </section>
+    
+
+  
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#39FF14"
+      },
+      "shape": {
+        "type": "circle"
+      },
+      "line_linked": {
+        "enable": false // Disable lines connecting particles
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": true
+      },
+      "size": {
+        "value": 3,
+        "random": true
+      },
+      "move": {
+        "enable": true,
+        "speed": 3
+      }
+    },
+    "interactivity": {
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "repulse"
+        }
+      }
+    }
+  });
+
+  </script>
   </body>
 </html

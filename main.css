@@ -15,6 +15,23 @@ body {
   line-height: 1.6; /* Slightly larger line-height for better readability */
 }
 
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Keep it behind all other content */
+  pointer-events: none;
+  transform: translateZ(0); /* Creates a new stacking context */
+}
+
+
+/* Ensure other sections have relative positioning */
+section {
+  position: relative;
+}
+
 #navigation {
   display: flex;
   justify-content: flex-start;
@@ -64,6 +81,7 @@ body {
 
 section {
   scroll-margin-top: 80px; /* Adjust based on your navbar's height */
+  z-index: -2;
 }
 
 #intro {
@@ -87,6 +105,7 @@ section {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 #intro h1 {
@@ -134,6 +153,7 @@ section h2 {
   border-radius: 0.5%;
   margin-top: 0.65%;
   animation: glow-border 3s infinite alternate;
+  z-index: 1;
 }
 
 #about h2 {
@@ -214,12 +234,13 @@ section h2 {
   width: 70%;
   margin: 0 auto;
   padding: 1rem;
-  background: rgba(57, 255, 20, 0.1);
+  background: #18291D;
   box-shadow: 0 0 20px 5px rgba(57, 255, 20, 0.5);
   animation: pulse 2s infinite;
   border-radius: 15px;
   padding-top: 2%;
   padding-bottom: 2%;
+  z-index: 1;
 }
 
 #flask-icon {
@@ -289,14 +310,16 @@ section h2 {
   align-items: center;
   justify-content: center;
   width: 93%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000; /* Solid color without transparency */
   border-radius: 10px;
   border: 2px solid #39FF14;
   box-shadow: 0 0 15px rgba(57, 255, 20, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: auto;
   max-height: 700px;
+  z-index: 1;
 }
+
 
 .project-entry:hover {
   transform: scale(1.05);
