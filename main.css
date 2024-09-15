@@ -23,6 +23,7 @@ body {
   height: 100%;
   pointer-events: none;
   transform: translateZ(0); /* Creates a new stacking context */
+  z-index: 1;
 }
 
 
@@ -314,6 +315,7 @@ section h2 {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin: auto;
   max-height: 700px;
+  z-index: 2
 }
 
 
