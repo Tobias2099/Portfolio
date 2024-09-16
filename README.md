@@ -11,8 +11,6 @@ While visiting, you will find:
 
 ## Future Plans and Projects
 
-- Aesthetically revamp my portfolio website
 - Master Python and C++
-- Learn how to use MongoDB
 - Learn how to use Unity to make games
 - Create a tank maze game
