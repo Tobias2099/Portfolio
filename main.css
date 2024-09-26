@@ -335,7 +335,7 @@ section h2 {
   color: #FFFFFF;
   font-size: 1.2rem;
   line-height: 1.6;
-  width: 80%;
+  width: 85%;
   max-width: 700px;
 }
 
@@ -345,7 +345,7 @@ section h2 {
   width: 99%;
   height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-  max-height: 450px;
+  max-height: 400px;
   padding-bottom: 4.5%;
 }
 
