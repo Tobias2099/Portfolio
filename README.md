@@ -11,6 +11,6 @@ While visiting, you will find:
 
 ## Future Plans and Projects
 
+- Build more Machine Learning and AI Projects
 - Master Python and C++
 - Learn how to use Unity to make games
-- Create a tank maze game
