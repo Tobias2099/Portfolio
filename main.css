@@ -4,6 +4,7 @@ body, html {
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
   color: #39FF14;
   cursor: crosshair; /* Terminal-style cursor */
   line-height: 1.6; /* Slightly larger line-height for better readability */
+  zoom: 1;
 }
 
 #particles-js {
