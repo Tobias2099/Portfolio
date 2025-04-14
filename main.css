@@ -4,12 +4,10 @@ body, html {
 
 html {
   scroll-behavior: smooth;
-  font-size: 15px;
 }
 
 body {
   margin: 0;
-  transform: scale(0.95);
   font-family: 'Roboto Mono', monospace;
   background-color: #0d1117;
   color: #39FF14;
@@ -344,7 +342,7 @@ section h2 {
 .project-entry img {
   border-radius: 5px;
   margin-top: 1rem;
-  width: 99%;
+  width: 95%;
   height: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   max-height: 400px;
@@ -376,13 +374,13 @@ section h2 {
 
 #project-grid {
   display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
-  grid-template-rows: repeat(2, 0.5fr);
-  row-gap: 4%;
-  column-gap: 3%;
-  padding: 0;
-  width: 80%;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
+
 
 #contact {
   display: flex;
